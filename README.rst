@@ -34,7 +34,7 @@ NOS-iOS-SDK只包含了iOS客户端使用场景中的必要功能，相比服务
 
 Git获取源码，源码使用的第三方库用CocoaPod管理，参考源码工程下的Podfile文件。
 
-	git clone https://git.hz.netease.com/git/nos/nos-ios-sdk.git
+	git clone https://github.com/NetEase-Object-Storage/nos-ios-sdk.git
 
 *源码目录说明：*
 
@@ -89,7 +89,7 @@ Git获取源码，源码使用的第三方库用CocoaPod管理，参考源码工
 **3. 上传过程**
 -----------------
 
-核心示例代码如下（具体可参见 `sample工程 <https://git.hz.netease.com/nos/nos-ios-sdk-demo>`_)
+核心示例代码如下（具体可参见 `sample工程 <https://github.com/NetEase-Object-Storage/nos-ios-sdk-demo>`_)
 
 .. code:: java
     :number-lines:
