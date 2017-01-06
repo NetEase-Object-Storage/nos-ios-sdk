@@ -1,0 +1,5 @@
+#include "Pods-nos ios SDKTests-AGAsyncTestHelper.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 ${PODS_NOS_IOS_SDKTESTS_AGASYNCTESTHELPER_GCC_PREPROCESSOR_DEFINITIONS}
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/AGAsyncTestHelper" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AGAsyncTestHelper"
+OTHER_LDFLAGS = -ObjC
+PODS_ROOT = ${SRCROOT}

@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BE434B657F4962F35497FA8 /* Pods-nos ios SDKTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF29B3552A7923A162E33D8B /* Pods-nos ios SDKTests-dummy.m */; };
+		1E5BD6AB68FE61B7B5A268A6 /* Pods-nos ios SDKTests-AGAsyncTestHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A22C8F9A8EED29EE955BEB /* Pods-nos ios SDKTests-AGAsyncTestHelper-dummy.m */; };
+		6DFDB103ECA8E20007F2AAD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE99D4191AA73297C97A56C /* Foundation.framework */; };
+		C47BCBD4980CF3471EC408FD /* AGAsyncTestHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B3519D2324E7033DA1B10CA /* AGAsyncTestHelper.h */; };
+		DF61FE0D3EBD4463D8CBCB50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE99D4191AA73297C97A56C /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BC1ACBD6306252D8B32076E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DF33958322B53EC0B97E1E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F08F80167A05D4D738C0C5F2;
+			remoteInfo = "Pods-nos ios SDKTests-AGAsyncTestHelper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08255A69DE1E28EEDBAFF30D /* libPods-nos ios SDKTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nos ios SDKTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B3519D2324E7033DA1B10CA /* AGAsyncTestHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGAsyncTestHelper.h; path = Source/AGAsyncTestHelper.h; sourceTree = "<group>"; };
+		102B1751E537022628D5CD36 /* Pods-nos ios SDKTests-AGAsyncTestHelper-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nos ios SDKTests-AGAsyncTestHelper-Private.xcconfig"; sourceTree = "<group>"; };
+		1FFF440BC314EBB790DD99B3 /* Pods-nos ios SDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nos ios SDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		37211D99DFE6531B0A1A6F8E /* Pods-nos ios SDKTests-AGAsyncTestHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nos ios SDKTests-AGAsyncTestHelper-prefix.pch"; sourceTree = "<group>"; };
+		3CE99D4191AA73297C97A56C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		43D6D47C24AC35A62F653F55 /* libPods-nos ios SDKTests-AGAsyncTestHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nos ios SDKTests-AGAsyncTestHelper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		461E65CAA8E208F6AC455B1D /* Pods-nos ios SDKTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nos ios SDKTests-environment.h"; sourceTree = "<group>"; };
+		563FC6B1D230689F4ADD7625 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		75E019B812A94916C3E0C132 /* Pods-nos ios SDKTests-AGAsyncTestHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nos ios SDKTests-AGAsyncTestHelper.xcconfig"; sourceTree = "<group>"; };
+		94A3C6D5AFF22A6A3D1DC07D /* Pods-nos ios SDKTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nos ios SDKTests-resources.sh"; sourceTree = "<group>"; };
+		A2A22C8F9A8EED29EE955BEB /* Pods-nos ios SDKTests-AGAsyncTestHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-nos ios SDKTests-AGAsyncTestHelper-dummy.m"; sourceTree = "<group>"; };
+		B33AEC1AEDB0E73D6F3EBDCA /* Pods-nos ios SDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nos ios SDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		B652D7481AE9FD25362D565B /* Pods-nos ios SDKTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-nos ios SDKTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C677667E159ED520D2DF12BC /* Pods-nos ios SDKTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-nos ios SDKTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CF29B3552A7923A162E33D8B /* Pods-nos ios SDKTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-nos ios SDKTests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E22137A5721125B253D3F3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DFDB103ECA8E20007F2AAD2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F030877655DA9212202D79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF61FE0D3EBD4463D8CBCB50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27FD32FD2C96EDE5A1340836 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08255A69DE1E28EEDBAFF30D /* libPods-nos ios SDKTests.a */,
+				43D6D47C24AC35A62F653F55 /* libPods-nos ios SDKTests-AGAsyncTestHelper.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43DA87E5833D48B0A3281190 /* Pods-nos ios SDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				B652D7481AE9FD25362D565B /* Pods-nos ios SDKTests-acknowledgements.markdown */,
+				C677667E159ED520D2DF12BC /* Pods-nos ios SDKTests-acknowledgements.plist */,
+				CF29B3552A7923A162E33D8B /* Pods-nos ios SDKTests-dummy.m */,
+				461E65CAA8E208F6AC455B1D /* Pods-nos ios SDKTests-environment.h */,
+				94A3C6D5AFF22A6A3D1DC07D /* Pods-nos ios SDKTests-resources.sh */,
+				1FFF440BC314EBB790DD99B3 /* Pods-nos ios SDKTests.debug.xcconfig */,
+				B33AEC1AEDB0E73D6F3EBDCA /* Pods-nos ios SDKTests.release.xcconfig */,
+			);
+			name = "Pods-nos ios SDKTests";
+			path = "Target Support Files/Pods-nos ios SDKTests";
+			sourceTree = "<group>";
+		};
+		4B9C460075A02EDB76C82235 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0B3519D2324E7033DA1B10CA /* AGAsyncTestHelper.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		5EDB2A2E270C293F47580F03 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				43DA87E5833D48B0A3281190 /* Pods-nos ios SDKTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		69ED1749F66AEB0C1CDCDA36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7581648910DF24A8D51D516 /* AGAsyncTestHelper */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6D1B45B7DF3492E1C9D6C62F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				756D7D28E4F1399684C42784 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		756D7D28E4F1399684C42784 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3CE99D4191AA73297C97A56C /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7C22FC68AF1252DE4DD1C442 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75E019B812A94916C3E0C132 /* Pods-nos ios SDKTests-AGAsyncTestHelper.xcconfig */,
+				102B1751E537022628D5CD36 /* Pods-nos ios SDKTests-AGAsyncTestHelper-Private.xcconfig */,
+				A2A22C8F9A8EED29EE955BEB /* Pods-nos ios SDKTests-AGAsyncTestHelper-dummy.m */,
+				37211D99DFE6531B0A1A6F8E /* Pods-nos ios SDKTests-AGAsyncTestHelper-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-nos ios SDKTests-AGAsyncTestHelper";
+			sourceTree = "<group>";
+		};
+		B966B3A970E812F1C1A49EDA = {
+			isa = PBXGroup;
+			children = (
+				563FC6B1D230689F4ADD7625 /* Podfile */,
+				6D1B45B7DF3492E1C9D6C62F /* Frameworks */,
+				69ED1749F66AEB0C1CDCDA36 /* Pods */,
+				27FD32FD2C96EDE5A1340836 /* Products */,
+				5EDB2A2E270C293F47580F03 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D7581648910DF24A8D51D516 /* AGAsyncTestHelper */ = {
+			isa = PBXGroup;
+			children = (
+				4B9C460075A02EDB76C82235 /* Core */,
+				7C22FC68AF1252DE4DD1C442 /* Support Files */,
+			);
+			path = AGAsyncTestHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F26C5AF25590A35456E09D1E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47BCBD4980CF3471EC408FD /* AGAsyncTestHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5DBCF45FD803C92CCF77F46D /* Pods-nos ios SDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A58A2D900F8FF1227EA4AC1 /* Build configuration list for PBXNativeTarget "Pods-nos ios SDKTests" */;
+			buildPhases = (
+				963E3BCC4615280BB2E895D8 /* Sources */,
+				3E22137A5721125B253D3F3C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF6F4A29B1E461050A6CAD8F /* PBXTargetDependency */,
+			);
+			name = "Pods-nos ios SDKTests";
+			productName = "Pods-nos ios SDKTests";
+			productReference = 08255A69DE1E28EEDBAFF30D /* libPods-nos ios SDKTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F08F80167A05D4D738C0C5F2 /* Pods-nos ios SDKTests-AGAsyncTestHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88B52F2D93CA6E02F82DA5FF /* Build configuration list for PBXNativeTarget "Pods-nos ios SDKTests-AGAsyncTestHelper" */;
+			buildPhases = (
+				D46334D2CBED699C25DBC40C /* Sources */,
+				63F030877655DA9212202D79 /* Frameworks */,
+				F26C5AF25590A35456E09D1E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-nos ios SDKTests-AGAsyncTestHelper";
+			productName = "Pods-nos ios SDKTests-AGAsyncTestHelper";
+			productReference = 43D6D47C24AC35A62F653F55 /* libPods-nos ios SDKTests-AGAsyncTestHelper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DF33958322B53EC0B97E1E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = 78EAE59AB02372D80D65E78E /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B966B3A970E812F1C1A49EDA;
+			productRefGroup = 27FD32FD2C96EDE5A1340836 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DBCF45FD803C92CCF77F46D /* Pods-nos ios SDKTests */,
+				F08F80167A05D4D738C0C5F2 /* Pods-nos ios SDKTests-AGAsyncTestHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		963E3BCC4615280BB2E895D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BE434B657F4962F35497FA8 /* Pods-nos ios SDKTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46334D2CBED699C25DBC40C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5BD6AB68FE61B7B5A268A6 /* Pods-nos ios SDKTests-AGAsyncTestHelper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF6F4A29B1E461050A6CAD8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-nos ios SDKTests-AGAsyncTestHelper";
+			target = F08F80167A05D4D738C0C5F2 /* Pods-nos ios SDKTests-AGAsyncTestHelper */;
+			targetProxy = 0BC1ACBD6306252D8B32076E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1148BD6F31AB9634F6402611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		45EDF1C66458DC784D133D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 102B1751E537022628D5CD36 /* Pods-nos ios SDKTests-AGAsyncTestHelper-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-nos ios SDKTests-AGAsyncTestHelper/Pods-nos ios SDKTests-AGAsyncTestHelper-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B6F6CD156F78220F69819B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		768F3CA1C449EDE6432119EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B33AEC1AEDB0E73D6F3EBDCA /* Pods-nos ios SDKTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA94A55E4B549457C62E22A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 102B1751E537022628D5CD36 /* Pods-nos ios SDKTests-AGAsyncTestHelper-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-nos ios SDKTests-AGAsyncTestHelper/Pods-nos ios SDKTests-AGAsyncTestHelper-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F70D697B429B2F171FD13A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FFF440BC314EBB790DD99B3 /* Pods-nos ios SDKTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A58A2D900F8FF1227EA4AC1 /* Build configuration list for PBXNativeTarget "Pods-nos ios SDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70D697B429B2F171FD13A3D /* Debug */,
+				768F3CA1C449EDE6432119EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78EAE59AB02372D80D65E78E /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1148BD6F31AB9634F6402611 /* Debug */,
+				4B6F6CD156F78220F69819B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88B52F2D93CA6E02F82DA5FF /* Build configuration list for PBXNativeTarget "Pods-nos ios SDKTests-AGAsyncTestHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA94A55E4B549457C62E22A3 /* Debug */,
+				45EDF1C66458DC784D133D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DF33958322B53EC0B97E1E4 /* Project object */;
+}

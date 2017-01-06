@@ -1,0 +1,929 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D408EA6E76F3860BED698CB /* libPods-nos ios SDKTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F57D1A576C95C9FF293A48 /* libPods-nos ios SDKTests.a */; };
+		E61C0A671A6761A4000D2A9B /* NOSLbsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E61C0A661A6761A4000D2A9B /* NOSLbsTest.m */; };
+		E61C0A6A1A6791EA000D2A9B /* NOSConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E61C0A691A6791EA000D2A9B /* NOSConfig.m */; };
+		E61C0A6B1A6791EA000D2A9B /* NOSConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E61C0A691A6791EA000D2A9B /* NOSConfig.m */; };
+		E61E5D811A65140F0042D348 /* NOSAsyncRun.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B894EA1A64F67B0042EE58 /* NOSAsyncRun.m */; };
+		E61E5D851A65141B0042D348 /* NOSBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B894F21A64F67B0042EE58 /* NOSBase64.m */; };
+		E61E5D991A651E490042D348 /* NOSHmacSha1.m in Sources */ = {isa = PBXBuildFile; fileRef = E61E5D981A651E490042D348 /* NOSHmacSha1.m */; };
+		E61E5D9A1A651E4F0042D348 /* NOSHmacSha1.m in Sources */ = {isa = PBXBuildFile; fileRef = E61E5D981A651E490042D348 /* NOSHmacSha1.m */; };
+		E62E257C1A75230100C17EE5 /* GZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = E62E257B1A75230100C17EE5 /* GZIP.m */; };
+		E62E257D1A75230100C17EE5 /* GZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = E62E257B1A75230100C17EE5 /* GZIP.m */; };
+		E62E257F1A75E9A700C17EE5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E62E257E1A75E9A700C17EE5 /* libz.dylib */; };
+		E62E25801A75E9B600C17EE5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E62E257E1A75E9A700C17EE5 /* libz.dylib */; };
+		E62E25821A76646E00C17EE5 /* NOSGZIPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E62E25811A76646E00C17EE5 /* NOSGZIPTest.m */; };
+		E62E25841A766CEB00C17EE5 /* NOSStatTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E62E25831A766CEB00C17EE5 /* NOSStatTest.m */; };
+		E62E25871A7727FC00C17EE5 /* NOSIPToLong.m in Sources */ = {isa = PBXBuildFile; fileRef = E62E25861A7727FC00C17EE5 /* NOSIPToLong.m */; };
+		E62E25881A7727FC00C17EE5 /* NOSIPToLong.m in Sources */ = {isa = PBXBuildFile; fileRef = E62E25861A7727FC00C17EE5 /* NOSIPToLong.m */; };
+		E62E258A1A772B6900C17EE5 /* NOSIPToLongTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E62E25891A772B6900C17EE5 /* NOSIPToLongTest.m */; };
+		E62E258D1A7730CE00C17EE5 /* NOSTimeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E62E258C1A7730CE00C17EE5 /* NOSTimeUtils.m */; };
+		E62E258E1A7730CE00C17EE5 /* NOSTimeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E62E258C1A7730CE00C17EE5 /* NOSTimeUtils.m */; };
+		E65D61F71A6AA28A001438D1 /* NOSLbsTask.m in Sources */ = {isa = PBXBuildFile; fileRef = E65D61F61A6AA28A001438D1 /* NOSLbsTask.m */; };
+		E65D61F81A6AA28A001438D1 /* NOSLbsTask.m in Sources */ = {isa = PBXBuildFile; fileRef = E65D61F61A6AA28A001438D1 /* NOSLbsTask.m */; };
+		E65D61FB1A6AA2AC001438D1 /* NOSLbsNetMonitorTask.m in Sources */ = {isa = PBXBuildFile; fileRef = E65D61FA1A6AA2AC001438D1 /* NOSLbsNetMonitorTask.m */; };
+		E65D61FC1A6AA2AC001438D1 /* NOSLbsNetMonitorTask.m in Sources */ = {isa = PBXBuildFile; fileRef = E65D61FA1A6AA2AC001438D1 /* NOSLbsNetMonitorTask.m */; };
+		E65D61FE1A6B9675001438D1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E65D61FD1A6B9675001438D1 /* SystemConfiguration.framework */; };
+		E65D61FF1A6B968A001438D1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E65D61FD1A6B9675001438D1 /* SystemConfiguration.framework */; };
+		E65D62011A6BAC7F001438D1 /* NOSBase64Test.m in Sources */ = {isa = PBXBuildFile; fileRef = E65D62001A6BAC7F001438D1 /* NOSBase64Test.m */; };
+		E65D62061A6BCDA2001438D1 /* NOSTempFile.m in Sources */ = {isa = PBXBuildFile; fileRef = E65D62051A6BCDA2001438D1 /* NOSTempFile.m */; };
+		E65D62081A6BCE81001438D1 /* NOSUploadTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E65D62071A6BCE81001438D1 /* NOSUploadTest.m */; };
+		E65D620C1A6BD1AA001438D1 /* NOSTokenUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E65D620B1A6BD1AA001438D1 /* NOSTokenUtils.m */; };
+		E65FECB01C182BF500A600AA /* NOSAFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FEC9E1C182BF500A600AA /* NOSAFHTTPRequestOperation.m */; };
+		E65FECB11C182BF500A600AA /* NOSAFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FEC9E1C182BF500A600AA /* NOSAFHTTPRequestOperation.m */; };
+		E65FECB21C182BF500A600AA /* NOSAFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FECA01C182BF500A600AA /* NOSAFHTTPRequestOperationManager.m */; };
+		E65FECB31C182BF500A600AA /* NOSAFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FECA01C182BF500A600AA /* NOSAFHTTPRequestOperationManager.m */; };
+		E65FECB41C182BF500A600AA /* NOSAFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FECA21C182BF500A600AA /* NOSAFHTTPSessionManager.m */; };
+		E65FECB51C182BF500A600AA /* NOSAFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FECA21C182BF500A600AA /* NOSAFHTTPSessionManager.m */; };
+		E65FECB61C182BF500A600AA /* NOSAFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FECA51C182BF500A600AA /* NOSAFNetworkReachabilityManager.m */; };
+		E65FECB71C182BF500A600AA /* NOSAFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FECA51C182BF500A600AA /* NOSAFNetworkReachabilityManager.m */; };
+		E65FECB81C182BF500A600AA /* NOSAFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FECA71C182BF500A600AA /* NOSAFSecurityPolicy.m */; };
+		E65FECB91C182BF500A600AA /* NOSAFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FECA71C182BF500A600AA /* NOSAFSecurityPolicy.m */; };
+		E65FECBA1C182BF500A600AA /* NOSAFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FECA91C182BF500A600AA /* NOSAFURLConnectionOperation.m */; };
+		E65FECBB1C182BF500A600AA /* NOSAFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FECA91C182BF500A600AA /* NOSAFURLConnectionOperation.m */; };
+		E65FECBC1C182BF500A600AA /* NOSAFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FECAB1C182BF500A600AA /* NOSAFURLRequestSerialization.m */; };
+		E65FECBD1C182BF500A600AA /* NOSAFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FECAB1C182BF500A600AA /* NOSAFURLRequestSerialization.m */; };
+		E65FECBE1C182BF500A600AA /* NOSAFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FECAD1C182BF500A600AA /* NOSAFURLResponseSerialization.m */; };
+		E65FECBF1C182BF500A600AA /* NOSAFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FECAD1C182BF500A600AA /* NOSAFURLResponseSerialization.m */; };
+		E65FECC01C182BF500A600AA /* NOSAFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FECAF1C182BF500A600AA /* NOSAFURLSessionManager.m */; };
+		E65FECC11C182BF500A600AA /* NOSAFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E65FECAF1C182BF500A600AA /* NOSAFURLSessionManager.m */; };
+		E6766EAA1A6BD938005DEE31 /* NOSTestConf.m in Sources */ = {isa = PBXBuildFile; fileRef = E6766EA91A6BD938005DEE31 /* NOSTestConf.m */; };
+		E6766EAC1A6C949A005DEE31 /* NOSFileRecorderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E6766EAB1A6C949A005DEE31 /* NOSFileRecorderTest.m */; };
+		E6766EAF1A6D3A4B005DEE31 /* NOSMd5.m in Sources */ = {isa = PBXBuildFile; fileRef = E6766EAE1A6D3A4B005DEE31 /* NOSMd5.m */; };
+		E6766EB01A6D3A4B005DEE31 /* NOSMd5.m in Sources */ = {isa = PBXBuildFile; fileRef = E6766EAE1A6D3A4B005DEE31 /* NOSMd5.m */; };
+		E6766EB21A6DE7E8005DEE31 /* NOSMd5Test.m in Sources */ = {isa = PBXBuildFile; fileRef = E6766EB11A6DE7E8005DEE31 /* NOSMd5Test.m */; };
+		E6766EB51A6E047A005DEE31 /* NOSHttpTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E6766EB31A6E047A005DEE31 /* NOSHttpTest.m */; };
+		E6766EB81A6E2E6A005DEE31 /* NOSSetGlobalConfTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E6766EB71A6E2E6A005DEE31 /* NOSSetGlobalConfTest.m */; };
+		E6822C531A6F48A000C179F5 /* NOSUrlCode.m in Sources */ = {isa = PBXBuildFile; fileRef = E6822C521A6F48A000C179F5 /* NOSUrlCode.m */; };
+		E6822C541A6F48A000C179F5 /* NOSUrlCode.m in Sources */ = {isa = PBXBuildFile; fileRef = E6822C521A6F48A000C179F5 /* NOSUrlCode.m */; };
+		E6822C561A6F4F6A00C179F5 /* NOSUrlCodeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E6822C551A6F4F6A00C179F5 /* NOSUrlCodeTest.m */; };
+		E6822C5B1A70DBC800C179F5 /* NOSStatisticsItems.m in Sources */ = {isa = PBXBuildFile; fileRef = E6822C5A1A70DBC800C179F5 /* NOSStatisticsItems.m */; };
+		E6822C5C1A70DBC800C179F5 /* NOSStatisticsItems.m in Sources */ = {isa = PBXBuildFile; fileRef = E6822C5A1A70DBC800C179F5 /* NOSStatisticsItems.m */; };
+		E6822C5E1A72196700C179F5 /* NOSStatisticsItemsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E6822C5D1A72196700C179F5 /* NOSStatisticsItemsTest.m */; };
+		E6822C611A72414F00C179F5 /* NOSLbsInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E6822C601A72414F00C179F5 /* NOSLbsInfo.m */; };
+		E6822C621A72414F00C179F5 /* NOSLbsInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E6822C601A72414F00C179F5 /* NOSLbsInfo.m */; };
+		E6822C651A751A6900C179F5 /* NOSIPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E6822C641A751A6900C179F5 /* NOSIPUtils.m */; };
+		E6822C661A751A6900C179F5 /* NOSIPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E6822C641A751A6900C179F5 /* NOSIPUtils.m */; };
+		E6822C681A751C2000C179F5 /* NOSIPUtilsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E6822C671A751C2000C179F5 /* NOSIPUtilsTest.m */; };
+		E68B277D1A67FFB800701FFA /* NOSStatTimeTask.m in Sources */ = {isa = PBXBuildFile; fileRef = E68B277C1A67FFB800701FFA /* NOSStatTimeTask.m */; };
+		E68B277E1A67FFB800701FFA /* NOSStatTimeTask.m in Sources */ = {isa = PBXBuildFile; fileRef = E68B277C1A67FFB800701FFA /* NOSStatTimeTask.m */; };
+		E6AB4ED11C8437F100DC553A /* NOSBucketLBSMap.m in Sources */ = {isa = PBXBuildFile; fileRef = E6AB4ED01C8437F100DC553A /* NOSBucketLBSMap.m */; };
+		E6AB4ED21C8437F100DC553A /* NOSBucketLBSMap.m in Sources */ = {isa = PBXBuildFile; fileRef = E6AB4ED01C8437F100DC553A /* NOSBucketLBSMap.m */; };
+		E6AB4ED41C8C634900DC553A /* NOSBucketLBSMapTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E6AB4ED31C8C634900DC553A /* NOSBucketLBSMapTest.m */; };
+		E6B2175C1C16C6DE009FB651 /* NOSReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B2175B1C16C6DE009FB651 /* NOSReachability.m */; };
+		E6B2175D1C16C6E5009FB651 /* NOSReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B2175B1C16C6DE009FB651 /* NOSReachability.m */; };
+		E6B895071A64F67B0042EE58 /* NOSAsyncRun.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B894EA1A64F67B0042EE58 /* NOSAsyncRun.m */; };
+		E6B8950B1A64F67B0042EE58 /* NOSBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B894F21A64F67B0042EE58 /* NOSBase64.m */; };
+		E6B8950C1A64F67B0042EE58 /* NOSHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B894F61A64F67B0042EE58 /* NOSHttpManager.m */; };
+		E6B8950D1A64F67B0042EE58 /* NOSResponseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B894F81A64F67B0042EE58 /* NOSResponseInfo.m */; };
+		E6B8950E1A64F67B0042EE58 /* NOSUserAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B894FA1A64F67B0042EE58 /* NOSUserAgent.m */; };
+		E6B8950F1A64F67B0042EE58 /* NOSFileRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B894FD1A64F67B0042EE58 /* NOSFileRecorder.m */; };
+		E6B895101A64F67B0042EE58 /* NOSResumeUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B895011A64F67B0042EE58 /* NOSResumeUpload.m */; };
+		E6B895111A64F67B0042EE58 /* NOSUploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B895031A64F67B0042EE58 /* NOSUploadManager.m */; };
+		E6B895121A64F67B0042EE58 /* NOSUploadOption.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B895061A64F67B0042EE58 /* NOSUploadOption.m */; };
+		E6B8952E1A64FC270042EE58 /* NOSHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B894F61A64F67B0042EE58 /* NOSHttpManager.m */; };
+		E6B8952F1A64FC2A0042EE58 /* NOSResponseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B894F81A64F67B0042EE58 /* NOSResponseInfo.m */; };
+		E6B895301A64FC2E0042EE58 /* NOSUserAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B894FA1A64F67B0042EE58 /* NOSUserAgent.m */; };
+		E6B895311A64FC310042EE58 /* NOSFileRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B894FD1A64F67B0042EE58 /* NOSFileRecorder.m */; };
+		E6B895321A64FC360042EE58 /* NOSResumeUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B895011A64F67B0042EE58 /* NOSResumeUpload.m */; };
+		E6B895331A64FC3A0042EE58 /* NOSUploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B895031A64F67B0042EE58 /* NOSUploadManager.m */; };
+		E6B895341A64FC3F0042EE58 /* NOSUploadOption.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B895061A64F67B0042EE58 /* NOSUploadOption.m */; };
+		E6C952EF1CBCD41000E238C8 /* NOSConfig.h in Copy Files */ = {isa = PBXBuildFile; fileRef = E61C0A681A6791EA000D2A9B /* NOSConfig.h */; };
+		E6C952F01CBCD41C00E238C8 /* NOSVersion.h in Copy Files */ = {isa = PBXBuildFile; fileRef = E6B894F31A64F67B0042EE58 /* NOSVersion.h */; };
+		E6C952F11CBCD42B00E238C8 /* NOSFileRecorder.h in Copy Files */ = {isa = PBXBuildFile; fileRef = E6B894FC1A64F67B0042EE58 /* NOSFileRecorder.h */; };
+		E6C952F21CBCD45900E238C8 /* NOSHttpManager.h in Copy Files */ = {isa = PBXBuildFile; fileRef = E6B894F51A64F67B0042EE58 /* NOSHttpManager.h */; };
+		E6C952F31CBCD47400E238C8 /* NOSSDK.h in Copy Files */ = {isa = PBXBuildFile; fileRef = E6B894CD1A64003C0042EE58 /* NOSSDK.h */; };
+		E6C952F41CBCD4A200E238C8 /* NOSResponseInfo.h in Copy Files */ = {isa = PBXBuildFile; fileRef = E6B894F71A64F67B0042EE58 /* NOSResponseInfo.h */; };
+		E6C952F51CBCD4AF00E238C8 /* NOSUploadManager.h in Copy Files */ = {isa = PBXBuildFile; fileRef = E6B895021A64F67B0042EE58 /* NOSUploadManager.h */; };
+		E6C952F61CBCD4BF00E238C8 /* NOSUploadOption.h in Copy Files */ = {isa = PBXBuildFile; fileRef = E6B895051A64F67B0042EE58 /* NOSUploadOption.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6B894D71A64003C0042EE58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6B894C21A64003C0042EE58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6B894C91A64003C0042EE58;
+			remoteInfo = nosSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E6B894C81A64003C0042EE58 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				E6C952F61CBCD4BF00E238C8 /* NOSUploadOption.h in Copy Files */,
+				E6C952F51CBCD4AF00E238C8 /* NOSUploadManager.h in Copy Files */,
+				E6C952F41CBCD4A200E238C8 /* NOSResponseInfo.h in Copy Files */,
+				E6C952F31CBCD47400E238C8 /* NOSSDK.h in Copy Files */,
+				E6C952F21CBCD45900E238C8 /* NOSHttpManager.h in Copy Files */,
+				E6C952F11CBCD42B00E238C8 /* NOSFileRecorder.h in Copy Files */,
+				E6C952F01CBCD41C00E238C8 /* NOSVersion.h in Copy Files */,
+				E6C952EF1CBCD41000E238C8 /* NOSConfig.h in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		35F57D1A576C95C9FF293A48 /* libPods-nos ios SDKTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nos ios SDKTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7013F937B9531C31A55FD7F8 /* libPods-nos ios SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nos ios SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		811CD0A4A9A1E53BF863433F /* Pods-nos ios SDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nos ios SDKTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nos ios SDKTests/Pods-nos ios SDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		DA726953E558F0BC8FAAF701 /* Pods-nos ios SDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nos ios SDKTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nos ios SDKTests/Pods-nos ios SDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E61C0A661A6761A4000D2A9B /* NOSLbsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOSLbsTest.m; sourceTree = "<group>"; };
+		E61C0A681A6791EA000D2A9B /* NOSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSConfig.h; path = NOSSDK/Common/NOSConfig.h; sourceTree = SOURCE_ROOT; };
+		E61C0A691A6791EA000D2A9B /* NOSConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSConfig.m; path = NOSSDK/Common/NOSConfig.m; sourceTree = SOURCE_ROOT; };
+		E61E5D971A651E490042D348 /* NOSHmacSha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOSHmacSha1.h; sourceTree = "<group>"; };
+		E61E5D981A651E490042D348 /* NOSHmacSha1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOSHmacSha1.m; sourceTree = "<group>"; };
+		E62E257A1A75230100C17EE5 /* GZIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GZIP.h; path = NOSSDK/Common/GZIP.h; sourceTree = SOURCE_ROOT; };
+		E62E257B1A75230100C17EE5 /* GZIP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GZIP.m; path = NOSSDK/Common/GZIP.m; sourceTree = SOURCE_ROOT; };
+		E62E257E1A75E9A700C17EE5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		E62E25811A76646E00C17EE5 /* NOSGZIPTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSGZIPTest.m; path = NOSSDKTests/NOSGZIPTest.m; sourceTree = SOURCE_ROOT; };
+		E62E25831A766CEB00C17EE5 /* NOSStatTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSStatTest.m; path = NOSSDKTests/NOSStatTest.m; sourceTree = SOURCE_ROOT; };
+		E62E25851A7727FC00C17EE5 /* NOSIPToLong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSIPToLong.h; path = NOSSDK/Common/NOSIPToLong.h; sourceTree = SOURCE_ROOT; };
+		E62E25861A7727FC00C17EE5 /* NOSIPToLong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSIPToLong.m; path = NOSSDK/Common/NOSIPToLong.m; sourceTree = SOURCE_ROOT; };
+		E62E25891A772B6900C17EE5 /* NOSIPToLongTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSIPToLongTest.m; path = NOSSDKTests/NOSIPToLongTest.m; sourceTree = SOURCE_ROOT; };
+		E62E258B1A7730CE00C17EE5 /* NOSTimeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSTimeUtils.h; path = NOSSDK/Common/NOSTimeUtils.h; sourceTree = SOURCE_ROOT; };
+		E62E258C1A7730CE00C17EE5 /* NOSTimeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSTimeUtils.m; path = NOSSDK/Common/NOSTimeUtils.m; sourceTree = SOURCE_ROOT; };
+		E65D61F51A6AA28A001438D1 /* NOSLbsTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSLbsTask.h; path = NOSSDK/Lbs/NOSLbsTask.h; sourceTree = SOURCE_ROOT; };
+		E65D61F61A6AA28A001438D1 /* NOSLbsTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSLbsTask.m; path = NOSSDK/Lbs/NOSLbsTask.m; sourceTree = SOURCE_ROOT; };
+		E65D61F91A6AA2AC001438D1 /* NOSLbsNetMonitorTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSLbsNetMonitorTask.h; path = NOSSDK/Lbs/NOSLbsNetMonitorTask.h; sourceTree = SOURCE_ROOT; };
+		E65D61FA1A6AA2AC001438D1 /* NOSLbsNetMonitorTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSLbsNetMonitorTask.m; path = NOSSDK/Lbs/NOSLbsNetMonitorTask.m; sourceTree = SOURCE_ROOT; };
+		E65D61FD1A6B9675001438D1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E65D62001A6BAC7F001438D1 /* NOSBase64Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSBase64Test.m; path = NOSSDKTests/NOSBase64Test.m; sourceTree = SOURCE_ROOT; };
+		E65D62041A6BCD9A001438D1 /* NOSTempFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSTempFile.h; path = NOSSDKTests/NOSTempFile.h; sourceTree = SOURCE_ROOT; };
+		E65D62051A6BCDA2001438D1 /* NOSTempFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSTempFile.m; path = NOSSDKTests/NOSTempFile.m; sourceTree = SOURCE_ROOT; };
+		E65D62071A6BCE81001438D1 /* NOSUploadTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSUploadTest.m; path = NOSSDKTests/NOSUploadTest.m; sourceTree = SOURCE_ROOT; };
+		E65D620A1A6BD1AA001438D1 /* NOSTokenUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSTokenUtils.h; path = NOSSDKTests/NOSTokenUtils.h; sourceTree = SOURCE_ROOT; };
+		E65D620B1A6BD1AA001438D1 /* NOSTokenUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSTokenUtils.m; path = NOSSDKTests/NOSTokenUtils.m; sourceTree = SOURCE_ROOT; };
+		E65FEC9D1C182BF500A600AA /* NOSAFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOSAFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		E65FEC9E1C182BF500A600AA /* NOSAFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOSAFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		E65FEC9F1C182BF500A600AA /* NOSAFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOSAFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		E65FECA01C182BF500A600AA /* NOSAFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOSAFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		E65FECA11C182BF500A600AA /* NOSAFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOSAFHTTPSessionManager.h; sourceTree = "<group>"; };
+		E65FECA21C182BF500A600AA /* NOSAFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOSAFHTTPSessionManager.m; sourceTree = "<group>"; };
+		E65FECA31C182BF500A600AA /* NOSAFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOSAFNetworking.h; sourceTree = "<group>"; };
+		E65FECA41C182BF500A600AA /* NOSAFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOSAFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		E65FECA51C182BF500A600AA /* NOSAFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOSAFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		E65FECA61C182BF500A600AA /* NOSAFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOSAFSecurityPolicy.h; sourceTree = "<group>"; };
+		E65FECA71C182BF500A600AA /* NOSAFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOSAFSecurityPolicy.m; sourceTree = "<group>"; };
+		E65FECA81C182BF500A600AA /* NOSAFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOSAFURLConnectionOperation.h; sourceTree = "<group>"; };
+		E65FECA91C182BF500A600AA /* NOSAFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOSAFURLConnectionOperation.m; sourceTree = "<group>"; };
+		E65FECAA1C182BF500A600AA /* NOSAFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOSAFURLRequestSerialization.h; sourceTree = "<group>"; };
+		E65FECAB1C182BF500A600AA /* NOSAFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOSAFURLRequestSerialization.m; sourceTree = "<group>"; };
+		E65FECAC1C182BF500A600AA /* NOSAFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOSAFURLResponseSerialization.h; sourceTree = "<group>"; };
+		E65FECAD1C182BF500A600AA /* NOSAFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOSAFURLResponseSerialization.m; sourceTree = "<group>"; };
+		E65FECAE1C182BF500A600AA /* NOSAFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOSAFURLSessionManager.h; sourceTree = "<group>"; };
+		E65FECAF1C182BF500A600AA /* NOSAFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOSAFURLSessionManager.m; sourceTree = "<group>"; };
+		E662A0ED1A836439002633D2 /* Readme */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
+		E6766EA81A6BD938005DEE31 /* NOSTestConf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSTestConf.h; path = NOSSDKTests/NOSTestConf.h; sourceTree = SOURCE_ROOT; };
+		E6766EA91A6BD938005DEE31 /* NOSTestConf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSTestConf.m; path = NOSSDKTests/NOSTestConf.m; sourceTree = SOURCE_ROOT; };
+		E6766EAB1A6C949A005DEE31 /* NOSFileRecorderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSFileRecorderTest.m; path = NOSSDKTests/NOSFileRecorderTest.m; sourceTree = SOURCE_ROOT; };
+		E6766EAD1A6D3A4B005DEE31 /* NOSMd5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSMd5.h; path = NOSSDK/Common/NOSMd5.h; sourceTree = SOURCE_ROOT; };
+		E6766EAE1A6D3A4B005DEE31 /* NOSMd5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSMd5.m; path = NOSSDK/Common/NOSMd5.m; sourceTree = SOURCE_ROOT; };
+		E6766EB11A6DE7E8005DEE31 /* NOSMd5Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSMd5Test.m; path = NOSSDKTests/NOSMd5Test.m; sourceTree = SOURCE_ROOT; };
+		E6766EB31A6E047A005DEE31 /* NOSHttpTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSHttpTest.m; path = NOSSDKTests/NOSHttpTest.m; sourceTree = SOURCE_ROOT; };
+		E6766EB71A6E2E6A005DEE31 /* NOSSetGlobalConfTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSSetGlobalConfTest.m; path = NOSSDKTests/NOSSetGlobalConfTest.m; sourceTree = SOURCE_ROOT; };
+		E6822C511A6F48A000C179F5 /* NOSUrlCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSUrlCode.h; path = NOSSDK/Common/NOSUrlCode.h; sourceTree = SOURCE_ROOT; };
+		E6822C521A6F48A000C179F5 /* NOSUrlCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSUrlCode.m; path = NOSSDK/Common/NOSUrlCode.m; sourceTree = SOURCE_ROOT; };
+		E6822C551A6F4F6A00C179F5 /* NOSUrlCodeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSUrlCodeTest.m; path = NOSSDKTests/NOSUrlCodeTest.m; sourceTree = SOURCE_ROOT; };
+		E6822C591A70DBC800C179F5 /* NOSStatisticsItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSStatisticsItems.h; path = NOSSDK/Stat/NOSStatisticsItems.h; sourceTree = SOURCE_ROOT; };
+		E6822C5A1A70DBC800C179F5 /* NOSStatisticsItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSStatisticsItems.m; path = NOSSDK/Stat/NOSStatisticsItems.m; sourceTree = SOURCE_ROOT; };
+		E6822C5D1A72196700C179F5 /* NOSStatisticsItemsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSStatisticsItemsTest.m; path = NOSSDKTests/NOSStatisticsItemsTest.m; sourceTree = SOURCE_ROOT; };
+		E6822C5F1A72414F00C179F5 /* NOSLbsInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSLbsInfo.h; path = NOSSDK/Stat/NOSLbsInfo.h; sourceTree = SOURCE_ROOT; };
+		E6822C601A72414F00C179F5 /* NOSLbsInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSLbsInfo.m; path = NOSSDK/Stat/NOSLbsInfo.m; sourceTree = SOURCE_ROOT; };
+		E6822C631A751A6900C179F5 /* NOSIPUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSIPUtils.h; path = NOSSDK/Common/NOSIPUtils.h; sourceTree = SOURCE_ROOT; };
+		E6822C641A751A6900C179F5 /* NOSIPUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSIPUtils.m; path = NOSSDK/Common/NOSIPUtils.m; sourceTree = SOURCE_ROOT; };
+		E6822C671A751C2000C179F5 /* NOSIPUtilsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSIPUtilsTest.m; path = NOSSDKTests/NOSIPUtilsTest.m; sourceTree = SOURCE_ROOT; };
+		E68B277B1A67FFB800701FFA /* NOSStatTimeTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSStatTimeTask.h; path = NOSSDK/Stat/NOSStatTimeTask.h; sourceTree = SOURCE_ROOT; };
+		E68B277C1A67FFB800701FFA /* NOSStatTimeTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSStatTimeTask.m; path = NOSSDK/Stat/NOSStatTimeTask.m; sourceTree = SOURCE_ROOT; };
+		E68B277F1A68D7CB00701FFA /* NOSUploadManager+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NOSUploadManager+Private.h"; path = "NOSSDK/Storage/NOSUploadManager+Private.h"; sourceTree = SOURCE_ROOT; };
+		E6AB4ECF1C8437F100DC553A /* NOSBucketLBSMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSBucketLBSMap.h; path = NOSSDK/NOSBucketLBSMap.h; sourceTree = SOURCE_ROOT; };
+		E6AB4ED01C8437F100DC553A /* NOSBucketLBSMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSBucketLBSMap.m; path = NOSSDK/NOSBucketLBSMap.m; sourceTree = SOURCE_ROOT; };
+		E6AB4ED31C8C634900DC553A /* NOSBucketLBSMapTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSBucketLBSMapTest.m; path = NOSSDKTests/NOSBucketLBSMapTest.m; sourceTree = SOURCE_ROOT; };
+		E6AB4ED61C8D959000DC553A /* NOSBucketLBSMap+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NOSBucketLBSMap+Private.h"; path = "NOSSDK/NOSBucketLBSMap+Private.h"; sourceTree = SOURCE_ROOT; };
+		E6B2175A1C16C6DE009FB651 /* NOSReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSReachability.h; path = NOSSDK/Lbs/NOSReachability.h; sourceTree = SOURCE_ROOT; };
+		E6B2175B1C16C6DE009FB651 /* NOSReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSReachability.m; path = NOSSDK/Lbs/NOSReachability.m; sourceTree = SOURCE_ROOT; };
+		E6B894CA1A64003C0042EE58 /* libnos ios SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libnos ios SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B894CD1A64003C0042EE58 /* NOSSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NOSSDK.h; sourceTree = "<group>"; };
+		E6B894D51A64003C0042EE58 /* nos ios SDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nos ios SDKTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B894DB1A64003C0042EE58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6B894E91A64F67B0042EE58 /* NOSAsyncRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOSAsyncRun.h; sourceTree = "<group>"; };
+		E6B894EA1A64F67B0042EE58 /* NOSAsyncRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOSAsyncRun.m; sourceTree = "<group>"; };
+		E6B894F11A64F67B0042EE58 /* NOSBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOSBase64.h; sourceTree = "<group>"; };
+		E6B894F21A64F67B0042EE58 /* NOSBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOSBase64.m; sourceTree = "<group>"; };
+		E6B894F31A64F67B0042EE58 /* NOSVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOSVersion.h; sourceTree = "<group>"; };
+		E6B894F51A64F67B0042EE58 /* NOSHttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOSHttpManager.h; sourceTree = "<group>"; };
+		E6B894F61A64F67B0042EE58 /* NOSHttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOSHttpManager.m; sourceTree = "<group>"; };
+		E6B894F71A64F67B0042EE58 /* NOSResponseInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOSResponseInfo.h; sourceTree = "<group>"; };
+		E6B894F81A64F67B0042EE58 /* NOSResponseInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOSResponseInfo.m; sourceTree = "<group>"; };
+		E6B894F91A64F67B0042EE58 /* NOSUserAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOSUserAgent.h; sourceTree = "<group>"; };
+		E6B894FA1A64F67B0042EE58 /* NOSUserAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOSUserAgent.m; sourceTree = "<group>"; };
+		E6B894FC1A64F67B0042EE58 /* NOSFileRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOSFileRecorder.h; sourceTree = "<group>"; };
+		E6B894FD1A64F67B0042EE58 /* NOSFileRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOSFileRecorder.m; sourceTree = "<group>"; };
+		E6B894FE1A64F67B0042EE58 /* NOSRecorderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOSRecorderDelegate.h; sourceTree = "<group>"; };
+		E6B895001A64F67B0042EE58 /* NOSResumeUpload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOSResumeUpload.h; sourceTree = "<group>"; };
+		E6B895011A64F67B0042EE58 /* NOSResumeUpload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOSResumeUpload.m; sourceTree = "<group>"; };
+		E6B895021A64F67B0042EE58 /* NOSUploadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOSUploadManager.h; sourceTree = "<group>"; };
+		E6B895031A64F67B0042EE58 /* NOSUploadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOSUploadManager.m; sourceTree = "<group>"; };
+		E6B895041A64F67B0042EE58 /* NOSUploadOption+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NOSUploadOption+Private.h"; sourceTree = "<group>"; };
+		E6B895051A64F67B0042EE58 /* NOSUploadOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOSUploadOption.h; sourceTree = "<group>"; };
+		E6B895061A64F67B0042EE58 /* NOSUploadOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOSUploadOption.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6B894C71A64003C0042EE58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E62E257F1A75E9A700C17EE5 /* libz.dylib in Frameworks */,
+				E65D61FE1A6B9675001438D1 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B894D21A64003C0042EE58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E62E25801A75E9B600C17EE5 /* libz.dylib in Frameworks */,
+				E65D61FF1A6B968A001438D1 /* SystemConfiguration.framework in Frameworks */,
+				0D408EA6E76F3860BED698CB /* libPods-nos ios SDKTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		173F4B7B6E318FDFBA3FCB86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E62E257E1A75E9A700C17EE5 /* libz.dylib */,
+				E65D61FD1A6B9675001438D1 /* SystemConfiguration.framework */,
+				7013F937B9531C31A55FD7F8 /* libPods-nos ios SDK.a */,
+				35F57D1A576C95C9FF293A48 /* libPods-nos ios SDKTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E91B3CA6810EC69D720E368 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA726953E558F0BC8FAAF701 /* Pods-nos ios SDKTests.debug.xcconfig */,
+				811CD0A4A9A1E53BF863433F /* Pods-nos ios SDKTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E61C0A611A67586F000D2A9B /* Lbs */ = {
+			isa = PBXGroup;
+			children = (
+				E6B2175A1C16C6DE009FB651 /* NOSReachability.h */,
+				E6B2175B1C16C6DE009FB651 /* NOSReachability.m */,
+				E65D61F91A6AA2AC001438D1 /* NOSLbsNetMonitorTask.h */,
+				E65D61FA1A6AA2AC001438D1 /* NOSLbsNetMonitorTask.m */,
+				E65D61F51A6AA28A001438D1 /* NOSLbsTask.h */,
+				E65D61F61A6AA28A001438D1 /* NOSLbsTask.m */,
+			);
+			name = Lbs;
+			sourceTree = "<group>";
+		};
+		E65FEC9C1C182BF500A600AA /* NOSAFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				E65FEC9D1C182BF500A600AA /* NOSAFHTTPRequestOperation.h */,
+				E65FEC9E1C182BF500A600AA /* NOSAFHTTPRequestOperation.m */,
+				E65FEC9F1C182BF500A600AA /* NOSAFHTTPRequestOperationManager.h */,
+				E65FECA01C182BF500A600AA /* NOSAFHTTPRequestOperationManager.m */,
+				E65FECA11C182BF500A600AA /* NOSAFHTTPSessionManager.h */,
+				E65FECA21C182BF500A600AA /* NOSAFHTTPSessionManager.m */,
+				E65FECA31C182BF500A600AA /* NOSAFNetworking.h */,
+				E65FECA41C182BF500A600AA /* NOSAFNetworkReachabilityManager.h */,
+				E65FECA51C182BF500A600AA /* NOSAFNetworkReachabilityManager.m */,
+				E65FECA61C182BF500A600AA /* NOSAFSecurityPolicy.h */,
+				E65FECA71C182BF500A600AA /* NOSAFSecurityPolicy.m */,
+				E65FECA81C182BF500A600AA /* NOSAFURLConnectionOperation.h */,
+				E65FECA91C182BF500A600AA /* NOSAFURLConnectionOperation.m */,
+				E65FECAA1C182BF500A600AA /* NOSAFURLRequestSerialization.h */,
+				E65FECAB1C182BF500A600AA /* NOSAFURLRequestSerialization.m */,
+				E65FECAC1C182BF500A600AA /* NOSAFURLResponseSerialization.h */,
+				E65FECAD1C182BF500A600AA /* NOSAFURLResponseSerialization.m */,
+				E65FECAE1C182BF500A600AA /* NOSAFURLSessionManager.h */,
+				E65FECAF1C182BF500A600AA /* NOSAFURLSessionManager.m */,
+			);
+			name = NOSAFNetworking;
+			path = NOSSDK/NOSAFNetworking;
+			sourceTree = SOURCE_ROOT;
+		};
+		E68B27721A67D48A00701FFA /* Stat */ = {
+			isa = PBXGroup;
+			children = (
+				E68B277B1A67FFB800701FFA /* NOSStatTimeTask.h */,
+				E68B277C1A67FFB800701FFA /* NOSStatTimeTask.m */,
+				E6822C591A70DBC800C179F5 /* NOSStatisticsItems.h */,
+				E6822C5A1A70DBC800C179F5 /* NOSStatisticsItems.m */,
+				E6822C5F1A72414F00C179F5 /* NOSLbsInfo.h */,
+				E6822C601A72414F00C179F5 /* NOSLbsInfo.m */,
+				E6AB4ECF1C8437F100DC553A /* NOSBucketLBSMap.h */,
+				E6AB4ED01C8437F100DC553A /* NOSBucketLBSMap.m */,
+				E6AB4ED61C8D959000DC553A /* NOSBucketLBSMap+Private.h */,
+			);
+			name = Stat;
+			sourceTree = "<group>";
+		};
+		E6B894C11A64003C0042EE58 = {
+			isa = PBXGroup;
+			children = (
+				E662A0ED1A836439002633D2 /* Readme */,
+				E6B894CC1A64003C0042EE58 /* NOSSDK */,
+				E6B894D91A64003C0042EE58 /* NOSSDKTests */,
+				E6B894CB1A64003C0042EE58 /* Products */,
+				6E91B3CA6810EC69D720E368 /* Pods */,
+				173F4B7B6E318FDFBA3FCB86 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E6B894CB1A64003C0042EE58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6B894CA1A64003C0042EE58 /* libnos ios SDK.a */,
+				E6B894D51A64003C0042EE58 /* nos ios SDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6B894CC1A64003C0042EE58 /* NOSSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E65FEC9C1C182BF500A600AA /* NOSAFNetworking */,
+				E6B894E81A64F67B0042EE58 /* Common */,
+				E6B894F41A64F67B0042EE58 /* Http */,
+				E61C0A611A67586F000D2A9B /* Lbs */,
+				E6B894CD1A64003C0042EE58 /* NOSSDK.h */,
+				E6B894FB1A64F67B0042EE58 /* Recorder */,
+				E68B27721A67D48A00701FFA /* Stat */,
+				E6B894FF1A64F67B0042EE58 /* Storage */,
+			);
+			name = NOSSDK;
+			path = nosSDK;
+			sourceTree = "<group>";
+		};
+		E6B894D91A64003C0042EE58 /* NOSSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				E65D62001A6BAC7F001438D1 /* NOSBase64Test.m */,
+				E6766EAB1A6C949A005DEE31 /* NOSFileRecorderTest.m */,
+				E62E25811A76646E00C17EE5 /* NOSGZIPTest.m */,
+				E6766EB31A6E047A005DEE31 /* NOSHttpTest.m */,
+				E62E25891A772B6900C17EE5 /* NOSIPToLongTest.m */,
+				E6822C671A751C2000C179F5 /* NOSIPUtilsTest.m */,
+				E61C0A661A6761A4000D2A9B /* NOSLbsTest.m */,
+				E6766EB11A6DE7E8005DEE31 /* NOSMd5Test.m */,
+				E6766EB71A6E2E6A005DEE31 /* NOSSetGlobalConfTest.m */,
+				E6822C5D1A72196700C179F5 /* NOSStatisticsItemsTest.m */,
+				E62E25831A766CEB00C17EE5 /* NOSStatTest.m */,
+				E65D62041A6BCD9A001438D1 /* NOSTempFile.h */,
+				E65D62051A6BCDA2001438D1 /* NOSTempFile.m */,
+				E6766EA81A6BD938005DEE31 /* NOSTestConf.h */,
+				E6766EA91A6BD938005DEE31 /* NOSTestConf.m */,
+				E65D620A1A6BD1AA001438D1 /* NOSTokenUtils.h */,
+				E65D620B1A6BD1AA001438D1 /* NOSTokenUtils.m */,
+				E65D62071A6BCE81001438D1 /* NOSUploadTest.m */,
+				E6822C551A6F4F6A00C179F5 /* NOSUrlCodeTest.m */,
+				E6B894DA1A64003C0042EE58 /* Supporting Files */,
+				E6AB4ED31C8C634900DC553A /* NOSBucketLBSMapTest.m */,
+			);
+			name = NOSSDKTests;
+			path = nosSDKTests;
+			sourceTree = "<group>";
+		};
+		E6B894DA1A64003C0042EE58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6B894DB1A64003C0042EE58 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6B894E81A64F67B0042EE58 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E6B894E91A64F67B0042EE58 /* NOSAsyncRun.h */,
+				E6B894EA1A64F67B0042EE58 /* NOSAsyncRun.m */,
+				E6B894F11A64F67B0042EE58 /* NOSBase64.h */,
+				E6B894F21A64F67B0042EE58 /* NOSBase64.m */,
+				E61C0A681A6791EA000D2A9B /* NOSConfig.h */,
+				E61C0A691A6791EA000D2A9B /* NOSConfig.m */,
+				E61E5D971A651E490042D348 /* NOSHmacSha1.h */,
+				E61E5D981A651E490042D348 /* NOSHmacSha1.m */,
+				E6766EAD1A6D3A4B005DEE31 /* NOSMd5.h */,
+				E6766EAE1A6D3A4B005DEE31 /* NOSMd5.m */,
+				E6822C511A6F48A000C179F5 /* NOSUrlCode.h */,
+				E6822C521A6F48A000C179F5 /* NOSUrlCode.m */,
+				E6B894F31A64F67B0042EE58 /* NOSVersion.h */,
+				E6822C631A751A6900C179F5 /* NOSIPUtils.h */,
+				E6822C641A751A6900C179F5 /* NOSIPUtils.m */,
+				E62E257A1A75230100C17EE5 /* GZIP.h */,
+				E62E257B1A75230100C17EE5 /* GZIP.m */,
+				E62E25851A7727FC00C17EE5 /* NOSIPToLong.h */,
+				E62E25861A7727FC00C17EE5 /* NOSIPToLong.m */,
+				E62E258B1A7730CE00C17EE5 /* NOSTimeUtils.h */,
+				E62E258C1A7730CE00C17EE5 /* NOSTimeUtils.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E6B894F41A64F67B0042EE58 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				E6B894F51A64F67B0042EE58 /* NOSHttpManager.h */,
+				E6B894F61A64F67B0042EE58 /* NOSHttpManager.m */,
+				E6B894F71A64F67B0042EE58 /* NOSResponseInfo.h */,
+				E6B894F81A64F67B0042EE58 /* NOSResponseInfo.m */,
+				E6B894F91A64F67B0042EE58 /* NOSUserAgent.h */,
+				E6B894FA1A64F67B0042EE58 /* NOSUserAgent.m */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		E6B894FB1A64F67B0042EE58 /* Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				E6B894FC1A64F67B0042EE58 /* NOSFileRecorder.h */,
+				E6B894FD1A64F67B0042EE58 /* NOSFileRecorder.m */,
+				E6B894FE1A64F67B0042EE58 /* NOSRecorderDelegate.h */,
+			);
+			path = Recorder;
+			sourceTree = "<group>";
+		};
+		E6B894FF1A64F67B0042EE58 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				E6B895001A64F67B0042EE58 /* NOSResumeUpload.h */,
+				E6B895011A64F67B0042EE58 /* NOSResumeUpload.m */,
+				E6B895021A64F67B0042EE58 /* NOSUploadManager.h */,
+				E6B895031A64F67B0042EE58 /* NOSUploadManager.m */,
+				E68B277F1A68D7CB00701FFA /* NOSUploadManager+Private.h */,
+				E6B895051A64F67B0042EE58 /* NOSUploadOption.h */,
+				E6B895061A64F67B0042EE58 /* NOSUploadOption.m */,
+				E6B895041A64F67B0042EE58 /* NOSUploadOption+Private.h */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6B894C91A64003C0042EE58 /* nos ios SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6B894DE1A64003C0042EE58 /* Build configuration list for PBXNativeTarget "nos ios SDK" */;
+			buildPhases = (
+				55E9E20C4C77F23F95B01701 /* Check Pods Manifest.lock */,
+				E6B894C61A64003C0042EE58 /* Sources */,
+				E6B894C71A64003C0042EE58 /* Frameworks */,
+				E6B894C81A64003C0042EE58 /* Copy Files */,
+				614F58FE65D49DF0F8D0700A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nos ios SDK";
+			productName = nosSDK;
+			productReference = E6B894CA1A64003C0042EE58 /* libnos ios SDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E6B894D41A64003C0042EE58 /* nos ios SDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6B894E11A64003C0042EE58 /* Build configuration list for PBXNativeTarget "nos ios SDKTests" */;
+			buildPhases = (
+				A6A3B78E52DCEF3ED0F1FF8A /* Check Pods Manifest.lock */,
+				E6B894D11A64003C0042EE58 /* Sources */,
+				E6B894D21A64003C0042EE58 /* Frameworks */,
+				E6B894D31A64003C0042EE58 /* Resources */,
+				4F48DCE1EF82FB7187F8FDEF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6B894D81A64003C0042EE58 /* PBXTargetDependency */,
+			);
+			name = "nos ios SDKTests";
+			productName = nosSDKTests;
+			productReference = E6B894D51A64003C0042EE58 /* nos ios SDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6B894C21A64003C0042EE58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = NetEase;
+				TargetAttributes = {
+					E6B894C91A64003C0042EE58 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					E6B894D41A64003C0042EE58 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = E6B894C51A64003C0042EE58 /* Build configuration list for PBXProject "NOSSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E6B894C11A64003C0042EE58;
+			productRefGroup = E6B894CB1A64003C0042EE58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6B894C91A64003C0042EE58 /* nos ios SDK */,
+				E6B894D41A64003C0042EE58 /* nos ios SDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6B894D31A64003C0042EE58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F48DCE1EF82FB7187F8FDEF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nos ios SDKTests/Pods-nos ios SDKTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55E9E20C4C77F23F95B01701 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+			showEnvVarsInLog = 0;
+		};
+		614F58FE65D49DF0F8D0700A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+			showEnvVarsInLog = 0;
+		};
+		A6A3B78E52DCEF3ED0F1FF8A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6B894C61A64003C0042EE58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E65FECBA1C182BF500A600AA /* NOSAFURLConnectionOperation.m in Sources */,
+				E68B277D1A67FFB800701FFA /* NOSStatTimeTask.m in Sources */,
+				E6766EAF1A6D3A4B005DEE31 /* NOSMd5.m in Sources */,
+				E6B8950B1A64F67B0042EE58 /* NOSBase64.m in Sources */,
+				E6AB4ED11C8437F100DC553A /* NOSBucketLBSMap.m in Sources */,
+				E65FECC01C182BF500A600AA /* NOSAFURLSessionManager.m in Sources */,
+				E65FECB41C182BF500A600AA /* NOSAFHTTPSessionManager.m in Sources */,
+				E6822C5B1A70DBC800C179F5 /* NOSStatisticsItems.m in Sources */,
+				E6B2175C1C16C6DE009FB651 /* NOSReachability.m in Sources */,
+				E6B895111A64F67B0042EE58 /* NOSUploadManager.m in Sources */,
+				E6B895121A64F67B0042EE58 /* NOSUploadOption.m in Sources */,
+				E65FECB21C182BF500A600AA /* NOSAFHTTPRequestOperationManager.m in Sources */,
+				E65D61FB1A6AA2AC001438D1 /* NOSLbsNetMonitorTask.m in Sources */,
+				E6B8950E1A64F67B0042EE58 /* NOSUserAgent.m in Sources */,
+				E65FECB61C182BF500A600AA /* NOSAFNetworkReachabilityManager.m in Sources */,
+				E62E258D1A7730CE00C17EE5 /* NOSTimeUtils.m in Sources */,
+				E65FECBC1C182BF500A600AA /* NOSAFURLRequestSerialization.m in Sources */,
+				E61C0A6A1A6791EA000D2A9B /* NOSConfig.m in Sources */,
+				E62E257C1A75230100C17EE5 /* GZIP.m in Sources */,
+				E6B8950C1A64F67B0042EE58 /* NOSHttpManager.m in Sources */,
+				E65FECBE1C182BF500A600AA /* NOSAFURLResponseSerialization.m in Sources */,
+				E6822C531A6F48A000C179F5 /* NOSUrlCode.m in Sources */,
+				E61E5D991A651E490042D348 /* NOSHmacSha1.m in Sources */,
+				E6B895101A64F67B0042EE58 /* NOSResumeUpload.m in Sources */,
+				E6B895071A64F67B0042EE58 /* NOSAsyncRun.m in Sources */,
+				E6822C651A751A6900C179F5 /* NOSIPUtils.m in Sources */,
+				E6822C611A72414F00C179F5 /* NOSLbsInfo.m in Sources */,
+				E65FECB81C182BF500A600AA /* NOSAFSecurityPolicy.m in Sources */,
+				E65D61F71A6AA28A001438D1 /* NOSLbsTask.m in Sources */,
+				E62E25871A7727FC00C17EE5 /* NOSIPToLong.m in Sources */,
+				E6B8950F1A64F67B0042EE58 /* NOSFileRecorder.m in Sources */,
+				E65FECB01C182BF500A600AA /* NOSAFHTTPRequestOperation.m in Sources */,
+				E6B8950D1A64F67B0042EE58 /* NOSResponseInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B894D11A64003C0042EE58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E62E257D1A75230100C17EE5 /* GZIP.m in Sources */,
+				E65FECC11C182BF500A600AA /* NOSAFURLSessionManager.m in Sources */,
+				E65FECBB1C182BF500A600AA /* NOSAFURLConnectionOperation.m in Sources */,
+				E61E5D811A65140F0042D348 /* NOSAsyncRun.m in Sources */,
+				E65FECB91C182BF500A600AA /* NOSAFSecurityPolicy.m in Sources */,
+				E6822C661A751A6900C179F5 /* NOSIPUtils.m in Sources */,
+				E62E25841A766CEB00C17EE5 /* NOSStatTest.m in Sources */,
+				E6766EB01A6D3A4B005DEE31 /* NOSMd5.m in Sources */,
+				E65D620C1A6BD1AA001438D1 /* NOSTokenUtils.m in Sources */,
+				E68B277E1A67FFB800701FFA /* NOSStatTimeTask.m in Sources */,
+				E62E25821A76646E00C17EE5 /* NOSGZIPTest.m in Sources */,
+				E6AB4ED41C8C634900DC553A /* NOSBucketLBSMapTest.m in Sources */,
+				E6822C621A72414F00C179F5 /* NOSLbsInfo.m in Sources */,
+				E62E258E1A7730CE00C17EE5 /* NOSTimeUtils.m in Sources */,
+				E6AB4ED21C8437F100DC553A /* NOSBucketLBSMap.m in Sources */,
+				E6B895321A64FC360042EE58 /* NOSResumeUpload.m in Sources */,
+				E65D61F81A6AA28A001438D1 /* NOSLbsTask.m in Sources */,
+				E61E5D851A65141B0042D348 /* NOSBase64.m in Sources */,
+				E65D62061A6BCDA2001438D1 /* NOSTempFile.m in Sources */,
+				E65FECBD1C182BF500A600AA /* NOSAFURLRequestSerialization.m in Sources */,
+				E6B8952E1A64FC270042EE58 /* NOSHttpManager.m in Sources */,
+				E6766EAC1A6C949A005DEE31 /* NOSFileRecorderTest.m in Sources */,
+				E6B895341A64FC3F0042EE58 /* NOSUploadOption.m in Sources */,
+				E65D62011A6BAC7F001438D1 /* NOSBase64Test.m in Sources */,
+				E6822C681A751C2000C179F5 /* NOSIPUtilsTest.m in Sources */,
+				E65D62081A6BCE81001438D1 /* NOSUploadTest.m in Sources */,
+				E6B2175D1C16C6E5009FB651 /* NOSReachability.m in Sources */,
+				E6822C5E1A72196700C179F5 /* NOSStatisticsItemsTest.m in Sources */,
+				E62E258A1A772B6900C17EE5 /* NOSIPToLongTest.m in Sources */,
+				E6B895331A64FC3A0042EE58 /* NOSUploadManager.m in Sources */,
+				E62E25881A7727FC00C17EE5 /* NOSIPToLong.m in Sources */,
+				E61E5D9A1A651E4F0042D348 /* NOSHmacSha1.m in Sources */,
+				E6B895311A64FC310042EE58 /* NOSFileRecorder.m in Sources */,
+				E6B895301A64FC2E0042EE58 /* NOSUserAgent.m in Sources */,
+				E6B8952F1A64FC2A0042EE58 /* NOSResponseInfo.m in Sources */,
+				E6766EB51A6E047A005DEE31 /* NOSHttpTest.m in Sources */,
+				E6822C541A6F48A000C179F5 /* NOSUrlCode.m in Sources */,
+				E6766EAA1A6BD938005DEE31 /* NOSTestConf.m in Sources */,
+				E61C0A671A6761A4000D2A9B /* NOSLbsTest.m in Sources */,
+				E65FECB51C182BF500A600AA /* NOSAFHTTPSessionManager.m in Sources */,
+				E65FECBF1C182BF500A600AA /* NOSAFURLResponseSerialization.m in Sources */,
+				E65FECB71C182BF500A600AA /* NOSAFNetworkReachabilityManager.m in Sources */,
+				E65FECB31C182BF500A600AA /* NOSAFHTTPRequestOperationManager.m in Sources */,
+				E6766EB81A6E2E6A005DEE31 /* NOSSetGlobalConfTest.m in Sources */,
+				E6822C561A6F4F6A00C179F5 /* NOSUrlCodeTest.m in Sources */,
+				E65D61FC1A6AA2AC001438D1 /* NOSLbsNetMonitorTask.m in Sources */,
+				E6822C5C1A70DBC800C179F5 /* NOSStatisticsItems.m in Sources */,
+				E6766EB21A6DE7E8005DEE31 /* NOSMd5Test.m in Sources */,
+				E61C0A6B1A6791EA000D2A9B /* NOSConfig.m in Sources */,
+				E65FECB11C182BF500A600AA /* NOSAFHTTPRequestOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6B894D81A64003C0042EE58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6B894C91A64003C0042EE58 /* nos ios SDK */;
+			targetProxy = E6B894D71A64003C0042EE58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E6B894DC1A64003C0042EE58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		E6B894DD1A64003C0042EE58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+		E6B894DF1A64003C0042EE58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=*]" = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: huabin zheng (LEV38H6U29)";
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		E6B894E01A64003C0042EE58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: huabin zheng (LEV38H6U29)";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		E6B894E21A64003C0042EE58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA726953E558F0BC8FAAF701 /* Pods-nos ios SDKTests.debug.xcconfig */;
+			buildSettings = {
+				"ARCHS[sdk=*]" = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = nosSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		E6B894E31A64003C0042EE58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 811CD0A4A9A1E53BF863433F /* Pods-nos ios SDKTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				INFOPLIST_FILE = nosSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6B894C51A64003C0042EE58 /* Build configuration list for PBXProject "NOSSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B894DC1A64003C0042EE58 /* Debug */,
+				E6B894DD1A64003C0042EE58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6B894DE1A64003C0042EE58 /* Build configuration list for PBXNativeTarget "nos ios SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B894DF1A64003C0042EE58 /* Debug */,
+				E6B894E01A64003C0042EE58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6B894E11A64003C0042EE58 /* Build configuration list for PBXNativeTarget "nos ios SDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B894E21A64003C0042EE58 /* Debug */,
+				E6B894E31A64003C0042EE58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6B894C21A64003C0042EE58 /* Project object */;
+}

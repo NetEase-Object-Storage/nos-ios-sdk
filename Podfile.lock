@@ -1,0 +1,12 @@
+PODS:
+  - AGAsyncTestHelper/Core (1.0)
+  - AGAsyncTestHelper/Shorthand (1.0):
+    - AGAsyncTestHelper/Core
+
+DEPENDENCIES:
+  - AGAsyncTestHelper/Shorthand
+
+SPEC CHECKSUMS:
+  AGAsyncTestHelper: 8bcc5f789bd2a8581c3eb58038158ce71f9f0640
+
+COCOAPODS: 0.35.0
