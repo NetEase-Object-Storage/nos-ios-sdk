@@ -8,9 +8,9 @@
 
 #import "NOSTestConf.h"
 
-NSString *const kNOSTestBucket = @"futh";
-NSString *const kNOSTestAccessKey = @"3d3d1f4a085243d6ab4d9cb9242ec266"; //
-NSString *const kNOSTestSecretKey = @"015cef348a714467bc1328c5e7b97345"; //
+NSString *const kNOSTestBucket = @"somebucket";
+NSString *const kNOSTestAccessKey = @"xxx"; //
+NSString *const kNOSTestSecretKey = @"xxx"; //
 
 const UInt32 kNOSTestSoTimeout = 30;
 
