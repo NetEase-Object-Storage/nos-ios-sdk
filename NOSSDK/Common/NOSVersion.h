@@ -11,4 +11,4 @@
 /**
  *    sdk 版本
  */
-static const NSString *kNosVersion = @"0.0.6_iphost";
+static const NSString *kNosVersion = @"0.0.1-public";
