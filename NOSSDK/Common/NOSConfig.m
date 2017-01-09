@@ -36,7 +36,7 @@ static NSArray * kNOSUploaderDefaultHosts;
 @implementation NOSConfig
 
 + (void)initialize {
-    kNOSUploaderDefaultHosts = [NSArray arrayWithObjects:@"http://nosup-eastchina1.126.net", nil];
+    kNOSUploaderDefaultHosts = [NSArray arrayWithObjects:@"https://nosup-eastchina1.126.net", nil];
 }
 
 + (NSArray* )uploaderDefaultHosts {
