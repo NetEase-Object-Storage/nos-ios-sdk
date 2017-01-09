@@ -192,6 +192,5 @@ NOSUploadManager *upManager = [NOSUploadManager sharedInstanceWithRecorder: file
 
 ## 技术支持
 
-* 来东敏：laidongmin@corp.netease.com
 * 郑华斌：hzzhenghuabin@corp.netease.com
 * NOS上传加速联调群：1295407
