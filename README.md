@@ -17,7 +17,7 @@ NOS-iOS-SDK只包含了iOS客户端使用场景中的必要功能，相比服务
 
 在使用iOS-SDK开发基于NOS上传加速的应用之前，请理解正确的开发模型。客户端属于不可控的场景，恶意用户在拿到客户端后可能会对其进行反向工程，因此客户端程序中不可包含任何可能导致安全漏洞的业务逻辑和关键信息。我们推荐的安全模型如下所示：
 
-![ ](https://git.hz.netease.com/nos/nos-android-sdk/blob/master/release/img/wanproxy-model.jpg?raw=true)
+![ ](wanproxy-model.jpg?raw=true)
 
 开发者需要合理划分客户端程序和业务服务器的职责范围。分发给最终用户的客户端程序中不应有需要使用管理凭证及SecretKey的场景。这些可能导致安全风险的使用场景均应被设计为在业务服务器上进行。
 
@@ -27,7 +27,7 @@ NOS-iOS-SDK只包含了iOS客户端使用场景中的必要功能，相比服务
 
 Git获取源码，源码使用的第三方库用CocoaPod管理，参考源码工程下的Podfile文件。
 
-	git clone https://git.hz.netease.com/git/nos/nos-ios-sdk.git
+	git clone https://github.com/NetEase-Object-Storage/nos-ios-sdk.git
 
 *源码目录说明：*
 
@@ -192,5 +192,5 @@ NOSUploadManager *upManager = [NOSUploadManager sharedInstanceWithRecorder: file
 
 ## 技术支持
 
-* 郑华斌：hzzhenghuabin@corp.netease.com
+* 付天慧：hzfutianhui@corp.netease.com
 * NOS上传加速联调群：1295407
